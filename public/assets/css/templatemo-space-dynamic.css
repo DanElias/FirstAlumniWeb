@@ -147,12 +147,12 @@ body {
 }
 
 ::selection {
-  background: #03a4ed;
+  background: #0665b1;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #03a4ed;
+  background: #0665b1;
   color: #fff;
 }
 
@@ -189,16 +189,20 @@ body {
 
 .section-heading h2 em {
   font-style: normal;
-  color: #03a4ed;
+  color: #0665b1;
 }
 
 .section-heading h2 span {
-  color: #fe3f40;
+  color: #e61d24;
+}
+
+.green-mx {
+  color: #187c36 !important;
 }
 
 .main-blue-button a {
   display: inline-block;
-  background-color: #03a4ed;
+  background-color: #0665b1;
   font-size: 15px;
   font-weight: 400;
   color: #fff;
@@ -210,7 +214,7 @@ body {
 
 .main-red-button a {
   display: inline-block;
-  background-color: #fe3f40;
+  background-color: #e61d24;
   font-size: 15px;
   font-weight: 400;
   color: #fff;
@@ -225,7 +229,7 @@ body {
   background-color: #fff;
   font-size: 15px;
   font-weight: 400;
-  color: #fe3f40;
+  color: #e61d24;
   text-transform: capitalize;
   padding: 12px 25px;
   border-radius: 23px;
@@ -248,17 +252,21 @@ header
   box-shadow: 0px 0px 10px rgba(0,0,0,0.15)!important;
 }
 
+.logo {
+  width: 100px;
+}
+
 .background-header .logo,
 .background-header .main-nav .nav li a {
   color: #1e1e1e!important;
 }
 
 .background-header .main-nav .nav li:hover a {
-  color: #fe3f40!important;
+  color: #e61d24!important;
 }
 
 .background-header .nav li a.active {
-  color: #fe3f40!important;
+  color: #e61d24!important;
 }
 
 .header-area {
@@ -298,7 +306,7 @@ header
     font-size: 24px;
     font-weight: 700;
     text-transform: uppercase;
-    color: #03a4ed;
+    color: #0665b1;
     line-height: 100px;
     float: left;
     -webkit-transition: all 0.3s ease 0s;
@@ -308,7 +316,7 @@ header
 }
 
 .logo h4 span {
-  color: #fe3f40;
+  color: #e61d24;
 }
 
 .background-header .main-nav .logo h4 {
@@ -321,7 +329,7 @@ header
 
 .header-area .main-nav .nav {
   float: right;
-  margin-top: 30px;
+  margin-top: 30px !important;
   margin-right: 0px;
   background-color: transparent;
   -webkit-transition: all 0.3s ease 0s;
@@ -376,18 +384,18 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #fe3f40!important;
+  color: #e61d24!important;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #fe3f40!important;
+  color: #e61d24!important;
   opacity: 1;
 }
 
 .header-area .main-nav .nav li:last-child a:hover ,
 .background-header .main-nav .nav li:last-child a:hover {
-  background-color: #03a4ed;
+  background-color: #0665b1;
 }
 
 .header-area .main-nav .nav li.submenu {
@@ -448,7 +456,7 @@ header
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
   background: #fff;
-  color: #fe3f40!important;
+  color: #e61d24!important;
   padding-left: 25px;
 }
 
@@ -465,6 +473,7 @@ header
 }
 
 .header-area .main-nav .menu-trigger {
+  margin-top: 0.8% !important;
   cursor: pointer;
   display: block;
   position: absolute;
@@ -580,7 +589,11 @@ header
 }
 
 .header-area.header-sticky {
-  min-height: 80px;
+  min-height: 100px;
+}
+
+.main-nav{
+  line-height: 100px !important;
 }
 
 .header-area .nav {
@@ -588,7 +601,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #fe3f40;
+  color: #e61d24;
 }
 
 @media (max-width: 1200px) {
@@ -621,7 +634,7 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #fe3f40!important;
+    color: #e61d24!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -682,7 +695,7 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #fe3f40!important;
+    color: #e61d24!important;
   }
   .header-area .main-nav .nav li.submenu ul {
     position: relative;
@@ -796,7 +809,7 @@ preloader
     height: 16px;
     top: 12px;
     left: 15px;
-    background: #fe3f40;
+    background: #e61d24;
     border-radius: 50%;
     -webkit-transform: translateX(0);
     transform: translateX(0);
@@ -819,7 +832,7 @@ preloader
     width: 16px;
     height: 16px;
     margin-left: 16px;
-    background: #fe3f40;
+    background: #e61d24;
     border-radius: 50%;
 }
 
@@ -835,7 +848,7 @@ Banner Style
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 226px 0px 120px 0px;
+  padding: 150px 0px 0px 0px;
   position: relative;
   overflow: hidden;
 }
@@ -869,7 +882,7 @@ Banner Style
 .main-banner .left-content h6 {
   text-transform: uppercase;
   font-size: 18px;
-  color: #fe3f40;
+  color: #e61d24;
   margin-bottom: 15px;
 }
 
@@ -881,12 +894,12 @@ Banner Style
 }
 
 .main-banner .left-content h2 em {
-  color: #03a4ed;
+  color: #0665b1;
   font-style: normal;
 }
 
 .main-banner .left-content h2 span {
-  color: #fe3f40;
+  color: #e61d24;
 }
 
 .main-banner .left-content p {
@@ -908,7 +921,7 @@ Banner Style
   background-color: #fff;
   font-size: 15px;
   font-weight: 500;
-  color: #fe3f40;
+  color: #e61d24;
   text-transform: capitalize;
   padding: 12px 25px;
   border-radius: 23px;
@@ -920,7 +933,7 @@ Banner Style
 .main-banner .left-content form input {
   width: 470px;
   height: 66px;
-  background-color: #03a4ed;
+  background-color: #0665b1;
   border-radius: 33px;
   border: none;
   outline: none;
@@ -944,7 +957,7 @@ About Us Style
 */
 
 #about {
-  margin-top: 120px;
+  margin-top: 0px;
 }
 
 .about-us {
@@ -1019,7 +1032,7 @@ Services Style
   top: 0;
   font-size: 18px;
   font-weight: 600;
-  color: #03a4ed;
+  color: #0665b1;
 }
 
 .our-services .first-bar span {
@@ -1396,7 +1409,7 @@ form#contact textarea::placeholder {
 
 form#contact button {
   display: inline-block;
-  background-color: #03a4ed;
+  background-color: #0665b1;
   font-size: 15px;
   font-weight: 400;
   color: #fff;
@@ -1410,7 +1423,7 @@ form#contact button {
 }
 
 form#contact button:hover {
-  background-color: #fe3f40;
+  background-color: #e61d24;
 }
 
 
@@ -1426,7 +1439,7 @@ footer p {
 }
 
 footer p a {
-  color: #fe3f40;
+  color: #e61d24;
 }
 
 /* 
@@ -1448,7 +1461,7 @@ responsive
   .main-banner .left-content {
     margin-right: 0px;
     text-align: center;
-    margin-bottom: 45px;
+    margin-bottom: 0px;
   }
   .main-banner:after {
     top: 76px;
