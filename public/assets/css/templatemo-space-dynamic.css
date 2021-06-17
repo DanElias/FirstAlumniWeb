@@ -200,6 +200,10 @@ body {
   color: #187c36 !important;
 }
 
+.white-mx {
+  color: white !important;
+}
+
 .main-blue-button a {
   display: inline-block;
   background-color: #0665b1;
